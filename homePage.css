@@ -1,0 +1,142 @@
+body{
+	background-color: deepskyblue;
+}
+/*<meta http-equiv="refresh" content="5">*/
+#top{
+	border-radius: 50px;
+	background-image: url(download.png);
+	background-position: center; 
+  	background-repeat: repeat;
+  	background-size: contain;
+
+}
+.heading{
+	font-size: 20px;
+	font-family: Papyrus;
+	text-shadow: 2px 3px grey;
+
+	border: 4px solid;
+	border-radius: 8px;
+	border-color: greenyellow;
+	
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: 30%;
+	margin-right: 30%;
+	
+	width: initial;
+	vertical-align: middle;
+	background-color: skyblue;
+	opacity: 0.9;
+  	
+}
+#move{
+	border-radius: 7px;
+	background-image: url(download.png);
+	background-position: center; 
+  	background-repeat: repeat;
+  	background-size: contain;
+  	width: 80%;
+  	height: 30px;
+  	margin: auto;
+}
+button{
+	background-color: skyblue;
+	color: red;
+	font: 15px bold;
+	font-family: impact;
+	border-width: 3px;
+	border-color: green;
+	border-radius: 7px;
+	box-shadow: 5px 2px;
+	margin-top: 1px;
+	}
+#previous{
+	position: absolute;
+	margin-left: 5%;
+	align-self: left;
+}
+#next{
+	position: relative;
+	margin-left: 90%;
+	align-self: right;
+}
+#container{
+	border: 1px solid black;
+  	margin: 1rem;
+  	border-radius: 20px;
+  	padding: 10px 30px 10px 30px;
+  	text-align: center;
+  	background-color:#34ebd2;
+}
+.inside-content{
+  	border: 1px solid red;
+  	border-radius: 7px;
+  	padding: 1rem 1rem;
+  	vertical-align: middle;
+
+  	background-color: white;
+}
+#index{
+	border: 1px solid red;
+  	border-radius: 7px;
+  	padding: 1rem 1rem;
+  	vertical-align: left;
+  	position: relative;
+  	width: 40%;
+	text-align: left;
+	position: absolute;
+
+	
+}
+ul{
+	list-style: none;
+	padding-left: 10px;
+	margin-left: 10px;
+
+	color: #0ab0f2;
+	font-family: Calisto MT;
+	font-size: 18px;
+
+}
+ul::before{
+	content: "\22C8";
+}
+li{
+	list-style-type: disc;
+	padding-left: 10px;
+	margin-left: 30px;
+	padding-top: 2px;
+	padding-bottom: 1px ;
+
+	color: #04c91e;
+	font-family: Rockwell;
+	font-size: 15px;
+}
+#theory-heading{
+	width:45%;
+	height: auto;
+	position: relative;
+	margin-left: 50%;
+	margin-bottom: 0.5%;
+	color: #0ab0f2;
+	font-size: 22px;
+}
+#theory{
+	width:45%;
+	height: auto;
+	position: relative;
+	margin-left: 50%;
+	color: #059c19;
+	font-family: Bahnschrift SemiBold;
+	font-size: 15px;
+	font-weight: 3px;
+	font: bold;
+}
+#graph{
+	object-fit: scale-down;
+	width: auto;
+
+  	margin-top: 15%;
+  	background-image: url(download.png);
+}
